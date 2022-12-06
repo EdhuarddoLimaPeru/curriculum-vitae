@@ -1,0 +1,135 @@
+*{
+     box-sizing: border-box;
+     margin:0;
+     padding: 0; 
+     }
+
+body{
+    background-color:lightsteelblue;
+}
+
+hr{
+     width: 20px;
+     margin-left:42px;
+}
+
+img{
+      margin-left: 30px;
+      border-radius: 10px;
+      object-fit: cover;
+}
+
+.container{
+     background-color: white;
+     box-shadow: 20px 20px 10px grey;
+     font-family: Arial, Helvetica, sans-serif;
+     margin:50px auto;
+     width:800px;
+     overflow:hidden;
+     display: grid;
+     grid-template-columns:350px 450px;
+}
+
+.left{ 
+     width: 300px;
+     margin-left: 30px;
+     }
+
+.header{
+
+     font-family: 'Manrope',sans-serif;
+     background-color:rgb(135,206,250);
+     text-align: center;
+     padding:40px;
+}
+
+.header>h2{
+     margin-top: 15px;
+}
+
+.myinformation{
+     background-color:lightsteelblue;
+     padding:20px;
+}
+
+.skills{
+     margin-top: 25px;
+}
+
+.circles{
+     display:grid;
+     grid-template-columns: 50% 50%;
+}
+.circles>p{
+     border: 2px solid lightseagreen;
+     border-radius: 15px;
+     margin:5px;
+     text-align: center;
+}
+
+.circles>p:hover{
+     background-color:steelblue;
+     transition:ease .9s ;
+}
+
+.footer{
+     height: 50px;
+     width: 300px;
+     background-color:rgb(135,206,250);
+}
+
+.right{
+       font-family: Arial, Helvetica, sans-serif;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-evenly;
+       margin-left: 30px;
+       margin-top: 20px;
+     }
+
+.contact{
+     line-height: 1.3;
+     padding:30px;
+}
+
+.education{
+     
+     padding:30px;
+}
+
+.workexperience{
+     line-height: 1.3;
+     padding:30px;
+}
+.icons{
+margin-top: 25px;
+display: flex;
+justify-content: space-around;
+}
+
+.icons>p:hover{
+     background-color:steelblue;
+     transition:ease .9s ;
+}
+
+.icons>p{
+     border: 2px solid lightsteelblue;
+     border-radius: 15px;
+     padding:5px;
+}
+
+
+a{
+     text-decoration: none;
+     color:black;
+     padding:10px;
+     border-radius: 15px;
+}
+
+a:hover{
+     background-color:steelblue;
+     transition:ease .9s ;
+}
+
+     
+
